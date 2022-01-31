@@ -1,0 +1,4 @@
+diff -u hello.c hello_new.c > hello.patch
+
+#cd /root-6.18.04/builtins/davix
+ #atch -p3 -u -b < davix_download_patch_6.18.patch
