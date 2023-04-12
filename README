@@ -1,5 +1,8 @@
 diff -u hello.c hello_new.c > hello.patch
-
 patch -u < hello.patch
+
+diff -u CMakeLists.txt CMakeLists_new.txt > davix_download_patch_6.18.patch
+patch -u < davix_download_patch_6.18.patch
+
 
 https://www.thegeekstuff.com/2014/12/patch-command-examples/
